@@ -166,9 +166,24 @@ iframe{
 	nav li:active{
 		background:none;
 	}
+	.leftfloat{
+	float:center;
+	}
+	.rightfloat{
+	float: center;
+	}
+	img{
+		max-width:400px;
+		max-height:300px;
+		float: center;
+	}
+	.img-fluid{
+		max-width: 100%;
+		height: auto;
+	}
 }
 /* CSS for Smartphones */
-@media only screen and (max-width:760px){
+@media only screen and (max-width:780px){
 	h1{
 		font-size: 1.5em;
 	}
@@ -185,19 +200,11 @@ iframe{
 		font-size: .5em;
 		padding-right: 40px;
 	}
-	.leftfloat{
-	float:center;
-	margin-left: 3em;
-	}
-	.rightfloat{
-	float: center;
-	margin-right: 3em;
-	}
 	.desktop{
 		display: none;
 	}
 	img{
 		max-width:300px;
-		float: center;
+		max-height:225px;
 	}
 }
